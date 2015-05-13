@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="aIs-Lp-6cD" style="IBUITableViewCellStyleDefault" id="abY-Vr-25C" customClass="CDSwitchCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="abY-Vr-25C" id="FYQ-8q-Gpp">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aIs-Lp-6cD">
+                        <rect key="frame" x="15" y="0.0" width="290" height="47"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S5d-ib-mSV">
+                        <rect key="frame" x="250" y="8" width="51" height="31"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="S5d-ib-mSV" firstAttribute="centerY" secondItem="FYQ-8q-Gpp" secondAttribute="centerY" id="YkM-oZ-ayi"/>
+                    <constraint firstAttribute="trailing" secondItem="S5d-ib-mSV" secondAttribute="trailing" constant="21" id="zqm-96-Iqa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="notificationSwitch" destination="S5d-ib-mSV" id="24L-dj-IOm"/>
+                <outlet property="notificationTitleLabel" destination="aIs-Lp-6cD" id="ZVq-CB-230"/>
+                <outlet property="switchButton" destination="S5d-ib-mSV" id="EQf-hU-J5j"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

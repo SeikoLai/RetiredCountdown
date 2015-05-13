@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BadgeSwitchState</key>
+	<true/>
+	<key>NotificationSwitchState</key>
+	<true/>
+	<key>QualificationStatus</key>
+	<integer>0</integer>
+	<key>Percent</key>
+	<integer>0</integer>
+	<key>RetirementDay</key>
+	<integer>20</integer>
+	<key>RetirementMonth</key>
+	<integer>3</integer>
+	<key>RetirementYear</key>
+	<integer>2001</integer>
+	<key>DiscontinueDuration</key>
+	<integer>0</integer>
+	<key>CreditDuration</key>
+	<integer>0</integer>
+	<key>IntervalSeconds</key>
+	<integer>59</integer>
+	<key>IntervalMinutes</key>
+	<integer>59</integer>
+	<key>IntervalHours</key>
+	<integer>24</integer>
+	<key>IntervalDays</key>
+	<integer>364</integer>
+	<key>EnlistmentDate</key>
+	<date>2000-03-20T16:00:00Z</date>
+</dict>
+</plist>
